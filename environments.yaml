@@ -1,0 +1,27 @@
+e01:
+  vnetRange: "10.0.0.0/16"
+  fwPriority: 100
+  tags:
+    costLocation: C543254
+    businessUnit: Finance
+  owners:
+  - tokubica@microsoft.com
+  - tkubica12_gmail.com#EXT#@microsoft.onmicrosoft.com
+  outboundFqdns:
+  - name: microsoft
+    fqdns: ["microsoft.com", "www.microsoft.com"]
+  # - name: terraform
+  #   fqdns: ["*.terraform.com"]
+  deployDemo: true
+e02:
+  vnetRange: "10.1.0.0/16"
+  fwPriority: 101
+  tags:
+    costLocation: G65423
+    businessUnit: Marketing
+  owners:
+  - tokubica@microsoft.com
+  outboundFqdns:
+  - name: microsoft
+    fqdns: ["microsoft.com", "www.microsoft.com"]
+  deployDemo: true
